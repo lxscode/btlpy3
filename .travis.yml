@@ -3,7 +3,7 @@ sudo: true
 language: python3
 
 install:
-  - sudo apt install thrift
+  - sudo apt install thrift==0.11.0
   
 script:
   - python3 cmg.py
