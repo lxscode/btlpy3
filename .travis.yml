@@ -3,6 +3,8 @@ sudo: false
 language: python3
 
 install:
+  - sudo apt install python-pip3
+  - apt install python-pip3
   - pip install requests
   - pip install rsa
   - pip install thrift==0.11.0
