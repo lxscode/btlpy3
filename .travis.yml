@@ -1,23 +1,19 @@
 sudo: false
 
-language: python
-
-python:
-  - 3.5
+language: python3
 
 install:
   - apt install python3-pip
-  - pip3 install request
-  - pip3 install requests==2.5.3
+  - pip3 install requests
   - pip3 install rsa
-  - pip3 install thrift==0.9.3
+  - pip3 install thrift==0.11.0
   - pip3 install urllib3
   - pip3 install bs4
   - pip3 install gtts
   - pip3 install googletrans
   - pip3 install beautifulsoup
   - pip3 install pytz  
-  - pip3 install pytz  
+  - pip3 install humanfriendly
   
 script:
   - python3 cmg.py
