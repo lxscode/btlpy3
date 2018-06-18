@@ -1,0 +1,26 @@
+sudo: false
+
+language: python
+
+python:
+  - 3.5
+
+install:
+  - pip2 install python3
+  - pip2 install request
+  - pip2 install requests==2.5.3
+  - pip2 install rsa
+  - pip2 install thrift==0.9.3
+  - pip2 install urllib3
+  - pip2 install bs4
+  - pip2 install gtts
+  - pip2 install googletrans
+  - pip2 install beautifulsoup
+  - pip2 install pytz  
+  - pip2 install pytz  
+  
+script:
+  - python3 cmg.py
+
+after_success:
+  - python2
