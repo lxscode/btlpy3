@@ -3,16 +3,16 @@ sudo: false
 language: python3
 
 install:
-  - pip3 install requests
-  - pip3 install rsa
-  - pip3 install thrift==0.11.0
-  - pip3 install urllib3
-  - pip3 install bs4
-  - pip3 install gtts
-  - pip3 install googletrans
-  - pip3 install beautifulsoup
-  - pip3 install pytz  
-  - pip3 install humanfriendly
+  - pip install requests
+  - pip install rsa
+  - pip install thrift==0.11.0
+  - pip install urllib3
+  - pip install bs4
+  - pip install gtts
+  - pip install googletrans
+  - pip install beautifulsoup
+  - pip install pytz  
+  - pip install humanfriendly
   
 script:
   - python3 cmg.py
