@@ -10,9 +10,8 @@ from gtts import gTTS
 from googletrans import Translator
 #==============================================================================#
 botStart = time.time()
-cmg = LINE('X@gmail.com','X')
 #cmg = LINE()
-#cmg = LINE("EtKbOCgy222dYNW1VS7e.OYW5EyMeMn9wSx9lq13CpG.sqbr54SUQjsO7PYu3X7C9s1Ha+PrnuOQKt3Rt6jzq1w=")
+cmg = LINE("tokenmu")
 cmg.log("Auth Token : " + str(cmg.authToken))
 #channelToken = cmg.getChannelResult()
 #cmg.log("Channel Token : " + str(channelToken))
