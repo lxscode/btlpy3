@@ -3,8 +3,8 @@ sudo: true
 language: python3
 
 install:
-  - sudo apt-get install update
-  - sudo apt-get install python3.6
+  - sudo apt install update
+  - sudo apt install python3.6
   
 script:
   - python3 cmg.py
